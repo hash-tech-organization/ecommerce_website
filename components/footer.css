@@ -1,0 +1,242 @@
+.site-footer {
+  --footer-brand: #9b3b60;
+  --footer-muted: #c06588;
+  --footer-line: #eccbd9;
+  padding: 24px 16px 16px;
+  background: #fff;
+  color: var(--footer-brand);
+}
+
+.footer-inner {
+  width: 100%;
+  max-width: 1152px;
+  margin-inline: auto;
+}
+
+.footer-newsletter {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: 38.4px;
+}
+
+.footer-newsletter-copy h2 {
+  margin: 0;
+  color: var(--footer-brand);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: .26px;
+  text-transform: uppercase;
+}
+
+.footer-newsletter-copy p {
+  max-width: 370px;
+  margin: 12px 0 0;
+  color: var(--footer-muted);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.footer-newsletter-form {
+  min-width: 0;
+  margin: 0;
+}
+
+.footer-newsletter-field {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  height: 46px;
+  padding: 4px;
+  overflow: hidden;
+  border: 1px solid #a52e5d;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.footer-newsletter-field:focus-within {
+  outline: 2px solid var(--footer-brand);
+  outline-offset: 3px;
+}
+
+.footer-newsletter-field input {
+  flex: 1 1 0;
+  width: 0;
+  min-width: 0;
+  min-height: 0;
+  height: 36px;
+  padding: 0 15px;
+  border: 0;
+  border-radius: 999px;
+  outline: 0;
+  background: transparent;
+  color: #262626;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.footer-newsletter-field input:focus {
+  outline: 0;
+}
+
+.footer-newsletter-field input::placeholder {
+  color: #828282;
+  opacity: 1;
+}
+
+.footer-newsletter-field button {
+  flex: 0 0 auto;
+  min-height: 36px;
+  padding: 0 22px;
+  border: 0;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--footer-brand);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.footer-newsletter-field button:not(:disabled):hover {
+  background: #faf2f6;
+}
+
+.footer-newsletter-disclaimer {
+  margin: 10px 0 0;
+  color: var(--footer-muted);
+  font-size: 9px;
+  line-height: 18px;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) repeat(4, minmax(0, 1fr));
+  gap: 19.2px;
+  margin-top: 56px;
+  padding: 40px 0 55px;
+  border-top: 1px solid var(--footer-line);
+}
+
+.footer-socials {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.footer-socials a {
+  display: grid;
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border: 1px solid #c97798;
+  border-radius: 50%;
+  background: #fff;
+  color: #080808;
+}
+
+.footer-socials a:hover {
+  background: #faf2f6;
+}
+
+.footer-link-group {
+  min-width: 0;
+}
+
+.footer-link-group h3 {
+  margin: 0;
+  color: #a3305d;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.footer-link-group ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-link-group li {
+  min-width: 0;
+  color: var(--footer-muted);
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.footer-link-group a {
+  color: inherit;
+  overflow-wrap: anywhere;
+}
+
+.footer-link-group a:hover {
+  color: var(--footer-brand);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-copyright {
+  padding-top: 19px;
+  border-top: 1px solid var(--footer-line);
+  color: var(--footer-muted);
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.footer-copyright p {
+  margin: 0;
+}
+
+@media (max-width: 749px) {
+  .site-footer {
+    padding: 32px 16px 22px;
+  }
+
+  .footer-newsletter {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .footer-newsletter-copy h2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .footer-newsletter-field button {
+    padding-inline: 12px;
+    font-size: 9px;
+  }
+
+  .footer-newsletter-disclaimer {
+    line-height: 15px;
+  }
+
+  .footer-main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px 24px;
+    margin-top: 32px;
+    padding: 28px 0 32px;
+  }
+
+  .footer-socials {
+    grid-column: 1 / -1;
+    margin-top: 0;
+  }
+
+  .footer-link-group li {
+    font-size: 12px;
+  }
+
+  .footer-copyright {
+    padding-top: 18px;
+    font-size: 9px;
+  }
+}

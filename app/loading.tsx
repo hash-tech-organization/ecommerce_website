@@ -1,0 +1,1 @@
+export default function Loading() { return <main id="main-content" className="page-container loading-page" aria-label="Loading products"><div className="skeleton skeleton-heading" /><div className="product-grid">{Array.from({length:8},(_,i)=><div key={i}><div className="skeleton skeleton-product" /><div className="skeleton skeleton-line" /></div>)}</div></main>; }

@@ -1,0 +1,156 @@
+:root {
+  --brand: #9f305b;
+  --brand-hover: #89264e;
+  --cart-button-height: 30px;
+  --cart-button-font-size: 10px;
+  --cart-button-radius: 4px;
+}
+
+/* One purchase button style for cards, product pages and quick-add dialogs. */
+.add-to-cart-button {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  min-width: 0;
+  height: var(--cart-button-height);
+  min-height: var(--cart-button-height);
+  padding: 0 12px;
+  border: 1px solid transparent;
+  border-radius: var(--cart-button-radius);
+  background: var(--brand);
+  color: #fff;
+  font-size: var(--cart-button-font-size);
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: .25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color .18s ease;
+}
+
+.add-to-cart-button:not(:disabled):hover {
+  background: var(--brand-hover);
+}
+
+.add-to-cart-button:disabled {
+  background: #e2e2e2;
+  color: #777;
+  opacity: 1;
+}
+
+.quick-add-content > .add-to-cart-button {
+  margin-top: 28px;
+}
+
+.product-buy-row {
+  align-items: center;
+}
+
+.product-buy-row > .add-to-cart-button {
+  flex: 1;
+}
+
+.product-buy-row .quantity {
+  height: var(--cart-button-height);
+}
+
+.home-section {
+  padding-block: 40px;
+}
+
+.home-section > h2 {
+  margin-bottom: 24px;
+  color: #050505;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -.45px;
+}
+
+.promises-section {
+  width: 100%;
+  max-width: 1200px;
+  padding-inline: 24px;
+}
+
+.promises-section > h2 {
+  margin-bottom: 16px;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.promises-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.promise-card {
+  display: flex;
+  min-width: 0;
+  height: 380px;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 19px;
+  overflow: hidden;
+  border: 1px solid #d4d4d4;
+  border-radius: 11px;
+  background: #fff;
+}
+
+.promise-card img {
+  display: block;
+  width: 100%;
+  max-width: 334px;
+  height: auto;
+  max-height: 334px;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+@media (max-width: 1199px) {
+  .promise-card {
+    height: auto;
+  }
+}
+
+@media (max-width: 749px) {
+  :root {
+    --cart-button-height: 40px;
+    --cart-button-font-size: 11px;
+  }
+
+  .home-section {
+    padding-block: 32px;
+  }
+
+  .home-section > h2 {
+    font-size: 25px;
+  }
+
+  .promises-section {
+    padding-inline: 16px;
+  }
+
+  .promises-section > h2 {
+    line-height: 1.2;
+  }
+
+  .promises-grid {
+    display: flex;
+    gap: 16px;
+    margin-right: -16px;
+    padding-right: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .promise-card {
+    flex: 0 0 86%;
+    scroll-snap-align: start;
+  }
+}
