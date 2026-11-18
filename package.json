@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "check:links": "node scripts/check-links.mjs",
+    "sync:routes": "node scripts/sync-reference-routes.mjs",
     "lint": "eslint"
   },
   "dependencies": {

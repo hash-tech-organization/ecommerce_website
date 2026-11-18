@@ -1,0 +1,272 @@
+{
+  "redirects": [
+    {
+      "source": "/products/jaguar-print-padded-bra-and-panty-set",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/alona-padded-bra-and-panty-set",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/non-padded-bra-set-seravine-red",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/non-padded-bra-set-miralyn",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/non-padded-bra-set-rosy-aura-black",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/padded-bra-set-noir-heart",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/collections/sj-loungewear",
+      "destination": "/collections/nighty-dress",
+      "statusCode": 301
+    },
+    {
+      "source": "/products/non-padded-lace-bra-june",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/non-padded-lace-bra-june-rust",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/sajiero-non-padded-bra-lace-gleam",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/non-padded-bra-set-roselle-bloom-maroon",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/non-padded-bra-set-ivory-bloom-pink",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/padded-bra-set-raven",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/padded-bra-mila-white",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/pack-of-4-sajiero-soft-support-bras",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/padded-bra-noelia-red",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/padded-bra-noelia-green",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/padded-bra-bloomlift-padded-bra",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/non-padded-bra-luna-green",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/padded-bra-smooth-ease-brown",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/pack-of-4-sajiero-soft-bliss-bras-copy",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/sajiero-leonora-embroidered-sexy-short-lingerie",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/babydoll-trim-lace",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/babydoll-lingerie-red-desire",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/babydoll-elysia-lace",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/babydoll-cutout-lace",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/sajiero-fancy-shirt-lingerie",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/garter-set-mystique-noir",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/babydoll-lace-illusion",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/lingerie-set-with-gown-zarielle",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/babydoll-lingerie-siva",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/sajiero-charm-elegant-seductive-sexy-short-lingerie",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/babydoll-lingerie-vamp-black",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/lingerie-lunessa",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/babydoll-lingerie-shadow-lure",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/sajiero-women-faux-leather-bondage-set",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/silk-pj-set-silk-lounge-black",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/sajiero-silk-pajama-suit-with-gown-midnight-blush",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/babydoll-lingerie-merlot",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/chi-chi-unlined-sheer-mesh-lace-babydoll",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/heat-padded-string-ribbed-bikini",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/meadow-magic",
+      "destination": "/collections/all",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/panty-sleek-strap",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/seamless-bikini-panty-veloura-strap-green",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/sajiero-red-temptation",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/della-floral-padded-bra-and-panty-set-blue",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/aundies-padded-bra-and-panty-set-black",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/sajiero-fuzzy-floral-padded-bra-and-panty-set",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/skyler-embroidered-padded-bra-and-panty-set",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/babydoll-halter-teddy",
+      "destination": "/collections/all",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/babydoll-virelle-bloom",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/velvet-polka-2pc-silk-upper-shorts",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
+      "source": "/products/maternity-grip-belt",
+      "destination": "/",
+      "statusCode": 302
+    }
+  ],
+  "notFound": [
+    "/collections/single-padded-bras"
+  ]
+}

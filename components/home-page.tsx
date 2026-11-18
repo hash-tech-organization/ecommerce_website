@@ -6,6 +6,7 @@ import { Hero, ProductCarousel, Faq } from '@/components/home';
 import { AwardsSection } from '@/components/awards';
 import { CustomerVoice } from '@/components/customer-voice';
 import { TrustedPartners } from '@/components/trusted-partners';
+import '@/components/home-stats.css';
 
 export default function HomePage() {
   return <main id="main-content">
@@ -17,7 +18,22 @@ export default function HomePage() {
     <TrustedPartners />
     <section className="page-container home-section"><h2>Featured Categories</h2><div className="featured-grid">{home.featured.map((tile, i) => <Link href={tile.href} key={tile.href}><Image src={tile.image} alt={['Seamless Bras', 'Fusion', 'Nightgowns', 'Cami Sets'][i]} width={1000} height={1250} unoptimized loading="lazy" /></Link>)}</div></section>
     <CustomerVoice />
-    <section className="page-container home-section social-proof-section" aria-label="Sajiero in numbers"><div className="social-stats"><div><span>Customers served</span><strong>200k+</strong></div><div><span>Average rating</span><strong>4.8/5</strong></div><div><span>Years</span><strong>5+</strong></div></div></section>
+    <section className="home-stats-section" aria-label="Sajiero in numbers">
+      <dl className="home-stats-grid">
+        <div className="home-stat">
+          <dt>Customers served</dt>
+          <dd>200k+</dd>
+        </div>
+        <div className="home-stat">
+          <dt>Average rating</dt>
+          <dd>4.8/5</dd>
+        </div>
+        <div className="home-stat">
+          <dt>Years</dt>
+          <dd>5+</dd>
+        </div>
+      </dl>
+    </section>
     <section id="promises" className="page-container home-section promises-section" aria-labelledby="promises-heading">
       <h2 id="promises-heading">Promises</h2>
       <div className="promises-grid">

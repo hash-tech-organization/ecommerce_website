@@ -21,7 +21,8 @@ npm start
 ## Included
 
 - Desktop and mobile homepage, original responsive hero slideshow, product tabs, category tiles, partner logos, promises, awards, FAQs and footer.
-- Public catalog snapshot: **1,339 products, 92 collections and 30 journal articles**.
+- Public catalog snapshot: **1,390 products, 115 collections and 30 journal articles**.
+- Original menu labels and URL slugs, all 12 public information-page routes, and verified redirects for retired article links.
 - Collection filtering by size, stock and price, sorting and pagination.
 - Product galleries, image zoom, available variants, quantity controls and related products.
 - Predictive search and a complete search results page.
@@ -56,6 +57,9 @@ For production, connect an authorized store API or a separate commerce backend f
 | `public/images/` | Original homepage and featured-product photography stored locally |
 | `public/fonts/` | Original Inter font files |
 | `scripts/sync-reference.mjs` | Repeatable public reference import |
+| `scripts/sync-reference-routes.mjs` | Refresh original route names and menu links while preserving existing products and image edits |
+| `data/reference-routes.json` | Original menu, page names and public catalog URLs used for link checks |
+| `data/reference-redirects.json` | Verified original redirects and unavailable legacy URLs |
 
 The homepage and its featured products use local assets. Remaining catalog photography loads from the original public Shopify CDN.
 
@@ -75,9 +79,18 @@ node scripts/sync-reviews.mjs --refresh
 
 The importer caches source responses in the ignored `.reference/` directory to make interrupted downloads resumable. Existing cache files are reused; remove the specific cached response you intend to refresh before importing again. Catalog text is sanitized before it is stored as rendered HTML.
 
+To refresh page names, menu links and missing catalog routes without replacing existing product records or local images:
+
+```sh
+npm run sync:routes -- --refresh
+```
+
+Menu labels keep the original spelling and capitalization. Page paths retain the original `/pages/`, `/policies/`, `/collections/` and `/products/` slugs. The local sign-in screen also accepts the original `/customer_authentication/redirect` path. The journal currently contains the 30 imported articles; older archive articles have not been imported.
+
 ## Validation
 
 - Production build: `npm run build`.
+- Original route names and internal links: `npm run check:links`. With the dev server running, use `npm run check:links -- --http` to check page responses and original redirect destinations.
 - TypeScript: checked by the production build.
 - Browser smoke checks verified desktop and mobile layouts, predictive search, product size selection, cart quantity updates and persistence, category filters, checkout preview, Buy it now, and supporting routes.
 - Browser screenshots from this implementation are in the ignored `artifacts/` directory.
