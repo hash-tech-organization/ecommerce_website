@@ -24,7 +24,7 @@ npm start
 - Public catalog snapshot: **1,390 products, 115 collections and 30 journal articles**.
 - Original menu labels and URL slugs, all 12 public information-page routes, and verified redirects for retired article links.
 - Collection filtering by size, stock and price, sorting and pagination.
-- Product galleries, image zoom, available variants, quantity controls and related products.
+- Product detail layout with large galleries, rounded size/color selectors, a fixed purchase button, image zoom, quantity controls and related products. The Cherry Blossom product also includes its original size chart and product video.
 - Predictive search and a complete search results page.
 - Cart drawer and shopping bag page, with browser-local persistence.
 - Customer voice slider immediately after Featured Categories, with 19 original photo reviews, ratings, verified-buyer badges, arrows, autoplay, keyboard navigation and mobile swiping.
@@ -41,7 +41,7 @@ This project is a **frontend storefront with a local checkout preview**. It does
 - Newsletter email addresses are saved only on the current device.
 - The contact form prepares an email for the visitor to send using their email app.
 - Inventory, prices, policies and articles are downloaded snapshots, not live feeds.
-- Exact garment measurement charts are not exposed in the catalog feed; the size guide directs visitors to support.
+- Imported measurement charts appear in the size guide; designs without an imported chart direct visitors to support for exact measurements.
 
 For production, connect an authorized store API or a separate commerce backend for accounts, orders, payments, shipping, inventory and email subscriptions. Do not submit real payment information in the preview.
 
@@ -60,6 +60,7 @@ For production, connect an authorized store API or a separate commerce backend f
 | `scripts/sync-reference-routes.mjs` | Refresh original route names and menu links while preserving existing products and image edits |
 | `data/reference-routes.json` | Original menu, page names and public catalog URLs used for link checks |
 | `data/reference-redirects.json` | Verified original redirects and unavailable legacy URLs |
+| `data/product-details.json` | Public variant identifiers and available product-specific size chart/video assets |
 
 The homepage and its featured products use local assets. Remaining catalog photography loads from the original public Shopify CDN.
 

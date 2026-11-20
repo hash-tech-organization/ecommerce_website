@@ -1,0 +1,20 @@
+.bra-sets-category-nav { padding-block: 22px 0; }
+.bra-sets-category-theme-filter { position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none; }
+.bra-sets-category-list { display: flex; gap: 12px; margin: 0; padding: 0; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; list-style: none; }
+.bra-sets-category-list::-webkit-scrollbar { display: none; }
+.bra-sets-category-list > li { flex: 0 0 125px; scroll-snap-align: start; }
+.bra-sets-category-link { position: relative; display: block; height: 155px; background: #fff; }
+.bra-sets-category-link > img { width: 100%; height: 100%; object-fit: cover; }
+.bra-sets-category-image { clip-path: inset(0 0 16%); }
+.bra-sets-category-label { position: absolute; inset: 0; clip-path: inset(84% 0 0); filter: url('#bra-sets-category-dusty-rose'); }
+.bra-sets-category-link--new > .bra-sets-category-image { visibility: hidden; }
+.bra-sets-category-link--new > .bra-sets-category-label { clip-path: none; }
+.all-bra-sets-page .arrivals-toolbar { min-height: 64px; gap: 24px; padding-block: 10px; }
+.all-bra-sets-page .arrivals-desktop-filters { gap: 0 16px; }
+@media (max-width: 749px) {
+  .bra-sets-category-nav { margin-inline: -16px; padding-block: 12px 6px; }
+  .bra-sets-category-list { padding-inline: 16px; scroll-padding-inline: 16px; }
+  .bra-sets-category-list > li { flex-basis: 100px; }
+  .bra-sets-category-link { height: 124px; }
+  .all-bra-sets-page .arrivals-toolbar { min-height: 60px; gap: 20px; padding-block: 8px; }
+}

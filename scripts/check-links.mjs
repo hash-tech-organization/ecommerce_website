@@ -72,6 +72,7 @@ function checkData(value, source) {
   }
 }
 checkData(home, 'Homepage data');
+checkData(await read('data/navigation-menu.json'), 'Navigation menu');
 checkData(pages, 'Page content');
 checkData(posts, 'Article content');
 

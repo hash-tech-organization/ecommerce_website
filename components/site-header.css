@@ -1,0 +1,10 @@
+.site-header.store-header { height: var(--header-height); grid-template-columns: 1fr auto 1fr; padding: 0; border: 0; background: #fff; color: var(--ink); }
+.site-header.store-header .icon-button { width: 44px; height: 44px; padding: 0; }
+.site-header.store-header .menu-trigger svg { width: 14px; height: 14px; }
+.site-header.store-header .header-actions { gap: 0; }
+.site-header.store-header .header-actions svg { width: 20px; height: 20px; }
+.site-header.store-header .brand img { width: 148px; height: 50px; object-fit: contain; }
+.site-header.store-header .cart-count { top: 4px; right: 1px; min-width: 20px; height: 20px; padding: 0 4px; background: var(--brand); color: var(--brand-ink); font-size: 10px; line-height: 1; }
+@media (max-width: 749px) {
+  .site-header.store-header .brand img { width: 126px; height: 42px; }
+}

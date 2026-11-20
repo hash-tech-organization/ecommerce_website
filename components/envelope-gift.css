@@ -9,8 +9,8 @@
   overscroll-behavior: contain;
   border: 0;
   border-radius: 18px;
-  background: linear-gradient(180deg, #ca9dac 0%, #b77f94 43%, #8e365a 100%);
-  color: #fff2e4;
+  background: linear-gradient(180deg, var(--brand-soft) 0%, var(--brand-tint) 100%);
+  color: var(--brand-ink);
   box-shadow: 0 16px 60px #0003;
 }
 
@@ -51,7 +51,7 @@
 .envelope-gift-close:focus-visible,
 .envelope-gift-envelope:focus-visible,
 .envelope-gift-explore:focus-visible {
-  outline: 2px solid #fff2e4;
+  outline: 2px solid var(--brand-strong);
   outline-offset: 5px;
 }
 
@@ -166,15 +166,15 @@
   margin-top: 18px;
   padding: 10px 20px;
   border-radius: 5px;
-  background: #ffe5bd;
-  color: #7c2e4c;
+  background: var(--brand);
+  color: var(--brand-ink);
   font-size: 12px;
   font-weight: 700;
   transition: background .2s ease;
 }
 
 .envelope-gift-explore:hover {
-  background: #fff2e4;
+  background: var(--brand-hover);
 }
 
 .envelope-gift-hint {

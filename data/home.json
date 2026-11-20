@@ -1,5 +1,5 @@
 {
-  "logo": "/images/fa2e839567fe.jpg",
+  "logo": "/images/veloura-logo-dusty-rose.png",
   "sliders": [
     {
       "image": "/images/68cb5ab73008.jpg",
@@ -22,8 +22,8 @@
       {
         "title": "Bras",
         "handles": [
-          "padded-seamless-easy-comfort-bra-black",
           "seamless-padded-bra-wave-luxe-soft-pink",
+          "padded-seamless-easy-comfort-bra-black",
           "padded-bra-silque-skin",
           "seamless-padded-bra-scallop-heart-marroon",
           "seamless-padded-bra-scallop-heart-green"
@@ -31,28 +31,28 @@
         "href": "/collections/bras-in-pakistan",
         "cards": [
           {
-            "handle": "padded-seamless-easy-comfort-bra-black",
-            "image": "/images/0adbc9cecc2e.webp",
-            "isNew": false
-          },
-          {
             "handle": "seamless-padded-bra-wave-luxe-soft-pink",
-            "image": "/images/d75ecd7e4768.webp",
+            "image": "/images/catalog/bf07b24580c427df.webp",
             "isNew": true
           },
           {
+            "handle": "padded-seamless-easy-comfort-bra-black",
+            "image": "/images/catalog/98698a172f0948f1.webp",
+            "isNew": false
+          },
+          {
             "handle": "padded-bra-silque-skin",
-            "image": "/images/080f19152934.webp",
+            "image": "/images/catalog/5e0af28802ae008a.webp",
             "isNew": false
           },
           {
             "handle": "seamless-padded-bra-scallop-heart-marroon",
-            "image": "/images/d95c58e36773.webp",
+            "image": "/images/catalog/f4beb728d337a427.webp",
             "isNew": true
           },
           {
             "handle": "seamless-padded-bra-scallop-heart-green",
-            "image": "/images/5f509bc2bbc8.webp",
+            "image": "/images/catalog/e23d4db3adca1af5.webp",
             "isNew": true
           }
         ],
@@ -71,27 +71,27 @@
         "cards": [
           {
             "handle": "lawn-pajama-suit-pink-bow",
-            "image": "/images/5e648a2cea40.jpg",
+            "image": "/images/catalog/73fb0e80954102aa.jpg",
             "isNew": false
           },
           {
             "handle": "linen-pajama-suit-cherry-blossom",
-            "image": "/images/4bde4b3cf785.webp",
+            "image": "/images/catalog/e7b9145a5418271a.webp",
             "isNew": false
           },
           {
             "handle": "summer-pajama-suit-blue-bear",
-            "image": "/images/3c33bb7767fb.webp",
+            "image": "/images/catalog/648998048d33cd04.webp",
             "isNew": false
           },
           {
             "handle": "summer-pajama-suit-love-checks",
-            "image": "/images/5f1626b91362.webp",
+            "image": "/images/catalog/3bd9c9588c71203c.webp",
             "isNew": false
           },
           {
             "handle": "cami-set-cherry-breeze-purple",
-            "image": "/images/9e558899fa2e.webp",
+            "image": "/images/catalog/bf05c25b2b939e50.webp",
             "isNew": false
           }
         ],
@@ -104,34 +104,34 @@
           "wide-strap-bodysuit-shaper-skin",
           "wide-strap-bodysuit-shaper-dark-skin",
           "adjustable-strap-bodysuit-shaper-skin",
-          "body-shaper-curvique-dark-skin"
+          "bodysuit-shaper-fitza"
         ],
         "href": "/collections/body-shapers-women-pakistan",
         "cards": [
           {
             "handle": "sajiero-half-body-high-waist-shaper",
-            "image": "/images/cf5e93bcfef9.webp",
+            "image": "/images/catalog/765e750c67afa5fe.webp",
             "isNew": false
           },
           {
             "handle": "wide-strap-bodysuit-shaper-skin",
-            "image": "/images/a25592b9ec2e.webp",
+            "image": "/images/catalog/ada6ef20be6c57f8.webp",
             "isNew": true
           },
           {
             "handle": "wide-strap-bodysuit-shaper-dark-skin",
-            "image": "/images/61311fafc42d.webp",
+            "image": "/images/catalog/168436b19db2eaef.webp",
             "isNew": true
           },
           {
             "handle": "adjustable-strap-bodysuit-shaper-skin",
-            "image": "/images/a0588ae2a7a5.webp",
+            "image": "/images/catalog/be1255888b2c3363.webp",
             "isNew": true
           },
           {
-            "handle": "body-shaper-curvique-dark-skin",
-            "image": "/images/ddc203c66d6c.webp",
-            "isNew": true
+            "handle": "bodysuit-shaper-fitza",
+            "image": "/images/catalog/6d76ebfe78d7ae3d.webp",
+            "isNew": false
           }
         ],
         "exploreImage": "/images/04b48c1c2e48.webp"
@@ -149,27 +149,27 @@
         "cards": [
           {
             "handle": "garter-set-ebonix-black",
-            "image": "/images/836a25fee162.webp",
+            "image": "/images/catalog/bfd8ed7a03875e95.webp",
             "isNew": false
           },
           {
             "handle": "garter-set-vexa-black",
-            "image": "/images/7dd974f33be1.webp",
+            "image": "/images/catalog/d632e80c72c197c7.webp",
             "isNew": false
           },
           {
             "handle": "babydoll-lingerie-velora-bow",
-            "image": "/images/2327d9aa6ddd.webp",
+            "image": "/images/catalog/0ce6c7b19d1cb304.webp",
             "isNew": false
           },
           {
             "handle": "sajiero-bra-set-ivory-muse",
-            "image": "/images/7d71c775705b.webp",
+            "image": "/images/catalog/0bbaf024dd254e0c.webp",
             "isNew": false
           },
           {
             "handle": "bex-printed-padded-bra-and-panty-set",
-            "image": "/images/f6e9e217cbef.webp",
+            "image": "/images/catalog/f8e2deafc0fa8228.webp",
             "isNew": false
           }
         ],
@@ -181,35 +181,35 @@
           "sexy-nightgowns-for-women-royal-bridal-set",
           "silk-nighty-dress-deep-v-sexy-bodysuit",
           "copy-of-artistry-red-lace-long-robe",
-          "babydoll-lingerie-heartelle-black",
-          "babydoll-lingerie-vilorie"
+          "babydoll-lingerie-floral-straps-blue",
+          "babydoll-lingerie-floral-straps-black"
         ],
         "href": "/collections/sexy-night-dresses-pakistan",
         "cards": [
           {
             "handle": "sexy-nightgowns-for-women-royal-bridal-set",
-            "image": "/images/09fca0cfa6c2.webp",
+            "image": "/images/catalog/eee445b9ec2d4c6d.webp",
             "isNew": false
           },
           {
             "handle": "silk-nighty-dress-deep-v-sexy-bodysuit",
-            "image": "/images/d79f51671b6c.webp",
+            "image": "/images/catalog/193743de156b10ad.webp",
             "isNew": false
           },
           {
             "handle": "copy-of-artistry-red-lace-long-robe",
-            "image": "/images/09d524ab1649.png",
+            "image": "/images/catalog/8b7304a66fbc5c7b.png",
             "isNew": false
           },
           {
-            "handle": "babydoll-lingerie-heartelle-black",
-            "image": "/images/4a5180931045.webp",
-            "isNew": false
+            "handle": "babydoll-lingerie-floral-straps-blue",
+            "image": "/images/catalog/ad12cd39dc2c8654.webp",
+            "isNew": true
           },
           {
-            "handle": "babydoll-lingerie-vilorie",
-            "image": "/images/f4b92480e59f.jpg",
-            "isNew": false
+            "handle": "babydoll-lingerie-floral-straps-black",
+            "image": "/images/catalog/25e0a135ee49a756.webp",
+            "isNew": true
           }
         ],
         "exploreImage": "/images/c438ab15da2e.webp"
@@ -227,27 +227,27 @@
         "cards": [
           {
             "handle": "pack-of-2-soft-cotton-panty-lite-comfort-for-daily-use",
-            "image": "/images/52156f54c872.jpg",
+            "image": "/images/catalog/c1881bbab9a5a383.jpg",
             "isNew": false
           },
           {
             "handle": "pack-of-3-cotton-brief-panty-arvia",
-            "image": "/images/bac8fa2bf345.jpg",
+            "image": "/images/catalog/dcabd0a614d54911.jpg",
             "isNew": false
           },
           {
             "handle": "cotton-underwear-high-waist-pant",
-            "image": "/images/b73cf47e705b.jpg",
+            "image": "/images/catalog/58652ac6367368c6.jpg",
             "isNew": false
           },
           {
             "handle": "cotton-brief-panty-arvia-black",
-            "image": "/images/8e0b6643a97b.webp",
+            "image": "/images/catalog/c342318f22a5537f.webp",
             "isNew": false
           },
           {
             "handle": "cotton-brief-panty-arvia-skin",
-            "image": "/images/bba5e1f8e170.webp",
+            "image": "/images/catalog/487c530363ca0de1.webp",
             "isNew": false
           }
         ],
@@ -257,36 +257,36 @@
         "title": "Stockings",
         "handles": [
           "full-body-stocking-seravon",
-          "full-body-stocking-ravexa",
           "full-body-stocking-cirvella",
-          "leg-stocking-mesh-charm",
+          "full-body-stocking-ravexa",
+          "full-body-stocking-zelvica",
           "full-body-stocking-mirexa"
         ],
         "href": "/collections/bodystocking-lingerie-pakistan",
         "cards": [
           {
             "handle": "full-body-stocking-seravon",
-            "image": "/images/7d317195a5e8.webp",
-            "isNew": false
-          },
-          {
-            "handle": "full-body-stocking-ravexa",
-            "image": "/images/277c2da50764.webp",
+            "image": "/images/catalog/11d387958175af0a.webp",
             "isNew": false
           },
           {
             "handle": "full-body-stocking-cirvella",
-            "image": "/images/bee83f7888df.webp",
+            "image": "/images/catalog/be2cb925d7f733cb.webp",
             "isNew": false
           },
           {
-            "handle": "leg-stocking-mesh-charm",
-            "image": "/images/a6e4344c0a76.jpg",
+            "handle": "full-body-stocking-ravexa",
+            "image": "/images/catalog/474c9a600427f82a.webp",
+            "isNew": false
+          },
+          {
+            "handle": "full-body-stocking-zelvica",
+            "image": "/images/catalog/9df9b40184195d95.webp",
             "isNew": false
           },
           {
             "handle": "full-body-stocking-mirexa",
-            "image": "/images/e70590c3b959.webp",
+            "image": "/images/catalog/381185d11fc7e086.webp",
             "isNew": false
           }
         ],
@@ -299,33 +299,33 @@
           "camisole-dewina-black",
           "camisole-florise-lace",
           "camisole-dewina-skin",
-          "camisole-soft-touch"
+          "camisole-velira-lace"
         ],
         "href": "/collections/sajiero-tops",
         "cards": [
           {
             "handle": "soft-cotton-basic-camisole-lightbrown",
-            "image": "/images/3e108b74fc45.webp",
+            "image": "/images/catalog/851b9edba58deab6.webp",
             "isNew": false
           },
           {
             "handle": "camisole-dewina-black",
-            "image": "/images/ed1b38856c11.webp",
+            "image": "/images/catalog/0b091c4ccb115ce7.webp",
             "isNew": false
           },
           {
             "handle": "camisole-florise-lace",
-            "image": "/images/4b6f4cfc0442.webp",
+            "image": "/images/catalog/f3cc522a5c09abdd.webp",
             "isNew": false
           },
           {
             "handle": "camisole-dewina-skin",
-            "image": "/images/57eb7d17dd19.webp",
+            "image": "/images/catalog/32c0eed17aa1b86e.webp",
             "isNew": false
           },
           {
-            "handle": "camisole-soft-touch",
-            "image": "/images/1fa238672560.webp",
+            "handle": "camisole-velira-lace",
+            "image": "/images/catalog/678e8214d0db4da6.webp",
             "isNew": false
           }
         ],
@@ -344,27 +344,27 @@
         "cards": [
           {
             "handle": "pajama-sets-for-women-comfy-sleep",
-            "image": "/images/357a7ff5cde8.webp",
+            "image": "/images/catalog/d8efd91e41351d37.webp",
             "isNew": false
           },
           {
             "handle": "shorts-pack-for-women-3pc-midnight-breeze",
-            "image": "/images/157b1ff83337.png",
+            "image": "/images/catalog/013ba2ca7e047f6c.png",
             "isNew": false
           },
           {
             "handle": "shorts-comfy-crush-light-grey",
-            "image": "/images/e2c88e947821.png",
+            "image": "/images/catalog/da3cd137990a4259.png",
             "isNew": false
           },
           {
             "handle": "soft-ease-cotton-relax-trouser-blue",
-            "image": "/images/ad318d3d62da.webp",
+            "image": "/images/catalog/f0fd132f137ec689.webp",
             "isNew": false
           },
           {
             "handle": "shorts-comfy-crush-white",
-            "image": "/images/28ea51d23200.png",
+            "image": "/images/catalog/97b673bf398d7fc3.png",
             "isNew": false
           }
         ],
@@ -375,37 +375,37 @@
       {
         "title": "PJ Sets",
         "handles": [
-          "drop-shoulder-cotton-pj-set-ruby-heart",
-          "plush-fleece-pj-set-joy",
-          "plush-fleece-pj-set-duck-stripes",
-          "fleece-pj-set-moo",
-          "fleece-pj-set-hoopy"
+          "cotton-pj-set-coquette-black",
+          "cotton-pj-set-noirline-grey",
+          "cotton-pj-set-noirline-black",
+          "cami-set-soft-plaid-green",
+          "cami-set-soft-plaid-blue"
         ],
         "href": "/collections/pj-sets-new-arrivals",
         "cards": [
           {
-            "handle": "drop-shoulder-cotton-pj-set-ruby-heart",
-            "image": "/images/38b93caa6358.webp",
+            "handle": "cotton-pj-set-coquette-black",
+            "image": "/images/catalog/942624d38e0b30fb.webp",
             "isNew": true
           },
           {
-            "handle": "plush-fleece-pj-set-joy",
-            "image": "/images/453ce67818ce.webp",
+            "handle": "cotton-pj-set-noirline-grey",
+            "image": "/images/catalog/af58bf2902a6b2a2.webp",
             "isNew": true
           },
           {
-            "handle": "plush-fleece-pj-set-duck-stripes",
-            "image": "/images/2e7a4b669d03.webp",
+            "handle": "cotton-pj-set-noirline-black",
+            "image": "/images/catalog/66c6fcfb75de8fdf.webp",
             "isNew": true
           },
           {
-            "handle": "fleece-pj-set-moo",
-            "image": "/images/8aa35cbb1082.webp",
+            "handle": "cami-set-soft-plaid-green",
+            "image": "/images/catalog/dc3c04ca5ae45dee.webp",
             "isNew": true
           },
           {
-            "handle": "fleece-pj-set-hoopy",
-            "image": "/images/c455209304b9.webp",
+            "handle": "cami-set-soft-plaid-blue",
+            "image": "/images/catalog/4e24e3873c0c3f44.webp",
             "isNew": true
           }
         ],
@@ -414,37 +414,37 @@
       {
         "title": "Bras",
         "handles": [
-          "ultra-stretch-padded-bralette-belle-pink",
-          "ultra-stretch-padded-bralette-belle-white",
-          "ultra-stretch-padded-bralette-belle-black",
-          "ultra-stretch-padded-bralette-belle-skin",
-          "sports-bra-activa-charcoal"
+          "sport-bra-vital-core-dark-blue",
+          "sport-bra-vital-core-blue",
+          "sport-bra-active-core-blue",
+          "sport-bra-active-core-pink",
+          "sport-bra-active-core-grey"
         ],
         "href": "/collections/sajiero-bras-new-arrivals",
         "cards": [
           {
-            "handle": "ultra-stretch-padded-bralette-belle-pink",
-            "image": "/images/d5ade587bfb5.webp",
-            "isNew": false
+            "handle": "sport-bra-vital-core-dark-blue",
+            "image": "/images/catalog/eefe1cfb1c873055.png",
+            "isNew": true
           },
           {
-            "handle": "ultra-stretch-padded-bralette-belle-white",
-            "image": "/images/2f3b67f1b78d.webp",
-            "isNew": false
+            "handle": "sport-bra-vital-core-blue",
+            "image": "/images/catalog/291b4e0875ec23bc.png",
+            "isNew": true
           },
           {
-            "handle": "ultra-stretch-padded-bralette-belle-black",
-            "image": "/images/9ead2c65e4c3.webp",
-            "isNew": false
+            "handle": "sport-bra-active-core-blue",
+            "image": "/images/catalog/36843f962e3aaba0.jpg",
+            "isNew": true
           },
           {
-            "handle": "ultra-stretch-padded-bralette-belle-skin",
-            "image": "/images/84c4927c1587.webp",
-            "isNew": false
+            "handle": "sport-bra-active-core-pink",
+            "image": "/images/catalog/940bc11e742bf34d.webp",
+            "isNew": true
           },
           {
-            "handle": "sports-bra-activa-charcoal",
-            "image": "/images/0cf825c55bbf.webp",
+            "handle": "sport-bra-active-core-grey",
+            "image": "/images/catalog/37defa8fe5b53690.png",
             "isNew": true
           }
         ],
@@ -455,35 +455,35 @@
         "handles": [
           "high-waist-control-soft-cotton-panty-maroon",
           "high-waist-shaping-brief-panty-pink",
-          "high-waist-shaping-brief-panty-black",
           "high-waist-shaping-brief-panty-skin",
-          "high-waist-shaping-brief-panty-grey"
+          "high-waist-shaping-brief-panty-grey",
+          "high-waist-shaping-brief-panty-ivory"
         ],
         "href": "/collections/sajiero-panties-new-arrivals",
         "cards": [
           {
             "handle": "high-waist-control-soft-cotton-panty-maroon",
-            "image": "/images/880f0a3a235f.webp",
+            "image": "/images/catalog/500e75103a6d3c36.webp",
             "isNew": true
           },
           {
             "handle": "high-waist-shaping-brief-panty-pink",
-            "image": "/images/1f97647d2276.webp",
-            "isNew": false
-          },
-          {
-            "handle": "high-waist-shaping-brief-panty-black",
-            "image": "/images/25f3c6b023f8.webp",
+            "image": "/images/catalog/024ad45e38e92dae.webp",
             "isNew": false
           },
           {
             "handle": "high-waist-shaping-brief-panty-skin",
-            "image": "/images/b4b0d90ed4f1.webp",
+            "image": "/images/catalog/039aad3bcd82cc5d.webp",
             "isNew": false
           },
           {
             "handle": "high-waist-shaping-brief-panty-grey",
-            "image": "/images/e142b713b7ed.webp",
+            "image": "/images/catalog/21a632fa51178397.webp",
+            "isNew": false
+          },
+          {
+            "handle": "high-waist-shaping-brief-panty-ivory",
+            "image": "/images/catalog/aec6e3f19ecb2841.webp",
             "isNew": false
           }
         ],
@@ -502,27 +502,27 @@
         "cards": [
           {
             "handle": "padded-bra-set-wild",
-            "image": "/images/6811603cc7b0.webp",
+            "image": "/images/catalog/75d3ef1f30e58de4.webp",
             "isNew": true
           },
           {
             "handle": "padded-bra-set-flora",
-            "image": "/images/ddea17aa2b7b.webp",
+            "image": "/images/catalog/bf9222b2c735f7d1.webp",
             "isNew": true
           },
           {
             "handle": "padded-bra-set-alpha",
-            "image": "/images/e8bf1736194c.webp",
+            "image": "/images/catalog/667d2c26ec06f826.webp",
             "isNew": true
           },
           {
             "handle": "non-padded-bra-set-florelle",
-            "image": "/images/314a70a466b5.webp",
+            "image": "/images/catalog/18760e163d5a5c17.webp",
             "isNew": true
           },
           {
             "handle": "garter-set-xyra-white",
-            "image": "/images/3817ddebcda7.webp",
+            "image": "/images/catalog/c2b6108460b775b2.webp",
             "isNew": false
           }
         ],
@@ -541,27 +541,27 @@
         "cards": [
           {
             "handle": "body-shaper-curvique-skin",
-            "image": "/images/652353be79b9.webp",
+            "image": "/images/catalog/efb6617f7d1cebe6.webp",
             "isNew": true
           },
           {
             "handle": "body-shaper-curvique-dark-skin",
-            "image": "/images/ddc203c66d6c.webp",
+            "image": "/images/catalog/744e2999a7ed81e3.webp",
             "isNew": true
           },
           {
             "handle": "waist-trainer-seamless-shapewear-corset-tummy-control-belt-black",
-            "image": "/images/7b7e3a89be1e.webp",
+            "image": "/images/catalog/92b52fa042c23498.webp",
             "isNew": true
           },
           {
             "handle": "waist-trainer-seamless-shapewear-corset-tummy-control-belt-skin",
-            "image": "/images/990e83e463ad.webp",
+            "image": "/images/catalog/cc95ad75baa570a1.webp",
             "isNew": true
           },
           {
             "handle": "3pcs-postpartum-belly-wrap-recovery-band-belt-abdominal-binder-skin",
-            "image": "/images/470d9eb2facb.webp",
+            "image": "/images/catalog/1eef39cacf5c7bb4.webp",
             "isNew": true
           }
         ],
@@ -570,38 +570,38 @@
       {
         "title": "Lingerie",
         "handles": [
-          "babydoll-lingerie-fairy-black",
-          "3-piece-gown-set-marina-maroon",
-          "3-piece-gown-set-marina-black",
-          "babydoll-lingerie-bloomia-green",
-          "babydoll-lingerie-amor-black-1"
+          "royal-bridal-silk-5pcs-nightgown-set-blue",
+          "royal-bridal-silk-5pcs-nightgown-set-green",
+          "royal-bridal-silk-5pcs-nightgown-set-pink",
+          "babydoll-lingerie-eclipsa-black",
+          "babydoll-lingerie-ambrielle-maroon"
         ],
         "href": "/collections/lingerie-new-arrivals",
         "cards": [
           {
-            "handle": "babydoll-lingerie-fairy-black",
-            "image": "/images/a93939bb51bd.webp",
-            "isNew": false
+            "handle": "royal-bridal-silk-5pcs-nightgown-set-blue",
+            "image": "/images/catalog/db5f58c905b6bcd8.webp",
+            "isNew": true
           },
           {
-            "handle": "3-piece-gown-set-marina-maroon",
-            "image": "/images/bed6433c5690.webp",
-            "isNew": false
+            "handle": "royal-bridal-silk-5pcs-nightgown-set-green",
+            "image": "/images/catalog/6d323dfba0b63b1e.webp",
+            "isNew": true
           },
           {
-            "handle": "3-piece-gown-set-marina-black",
-            "image": "/images/11102e7fba5a.webp",
-            "isNew": false
+            "handle": "royal-bridal-silk-5pcs-nightgown-set-pink",
+            "image": "/images/catalog/d5f60bddfbe2148c.webp",
+            "isNew": true
           },
           {
-            "handle": "babydoll-lingerie-bloomia-green",
-            "image": "/images/2755490c0a91.webp",
-            "isNew": false
+            "handle": "babydoll-lingerie-eclipsa-black",
+            "image": "/images/catalog/8c94069de63f9bb9.webp",
+            "isNew": true
           },
           {
-            "handle": "babydoll-lingerie-amor-black-1",
-            "image": "/images/01d51abc902b.webp",
-            "isNew": false
+            "handle": "babydoll-lingerie-ambrielle-maroon",
+            "image": "/images/catalog/ff25ffb1415efdd9.webp",
+            "isNew": true
           }
         ],
         "exploreImage": "/images/bc8a1c53594e.webp"
@@ -619,27 +619,27 @@
         "cards": [
           {
             "handle": "half-body-stocking-elvaria",
-            "image": "/images/5459ef8a033e.webp",
+            "image": "/images/catalog/e6febb8adf6fc44c.webp",
             "isNew": false
           },
           {
             "handle": "half-body-stocking-velria",
-            "image": "/images/926bb1e99c9b.webp",
+            "image": "/images/catalog/fd7051bf65bc6579.webp",
             "isNew": false
           },
           {
             "handle": "half-body-stocking-nyvra",
-            "image": "/images/e6cc698109d0.webp",
+            "image": "/images/catalog/041eab53e43193cb.webp",
             "isNew": false
           },
           {
             "handle": "half-body-stocking-zarelle",
-            "image": "/images/4a1f0df7d656.webp",
+            "image": "/images/catalog/7f096187bc6b4f41.webp",
             "isNew": false
           },
           {
             "handle": "half-body-stocking-aurelle",
-            "image": "/images/38586b80cd39.webp",
+            "image": "/images/catalog/7110128eb3db26cf.webp",
             "isNew": false
           }
         ],
@@ -652,33 +652,33 @@
           "camisole-dewina-black",
           "camisole-florise-lace",
           "camisole-dewina-skin",
-          "camisole-soft-touch"
+          "camisole-velira-lace"
         ],
         "href": "/collections/sajiero-tops",
         "cards": [
           {
             "handle": "soft-cotton-basic-camisole-lightbrown",
-            "image": "/images/3e108b74fc45.webp",
+            "image": "/images/catalog/851b9edba58deab6.webp",
             "isNew": false
           },
           {
             "handle": "camisole-dewina-black",
-            "image": "/images/ed1b38856c11.webp",
+            "image": "/images/catalog/0b091c4ccb115ce7.webp",
             "isNew": false
           },
           {
             "handle": "camisole-florise-lace",
-            "image": "/images/4b6f4cfc0442.webp",
+            "image": "/images/catalog/f3cc522a5c09abdd.webp",
             "isNew": false
           },
           {
             "handle": "camisole-dewina-skin",
-            "image": "/images/57eb7d17dd19.webp",
+            "image": "/images/catalog/32c0eed17aa1b86e.webp",
             "isNew": false
           },
           {
-            "handle": "camisole-soft-touch",
-            "image": "/images/1fa238672560.webp",
+            "handle": "camisole-velira-lace",
+            "image": "/images/catalog/678e8214d0db4da6.webp",
             "isNew": false
           }
         ],
@@ -697,27 +697,27 @@
         "cards": [
           {
             "handle": "pajama-sets-for-women-comfy-sleep",
-            "image": "/images/357a7ff5cde8.webp",
+            "image": "/images/catalog/d8efd91e41351d37.webp",
             "isNew": false
           },
           {
             "handle": "shorts-pack-for-women-3pc-midnight-breeze",
-            "image": "/images/157b1ff83337.png",
+            "image": "/images/catalog/013ba2ca7e047f6c.png",
             "isNew": false
           },
           {
             "handle": "shorts-comfy-crush-light-grey",
-            "image": "/images/e2c88e947821.png",
+            "image": "/images/catalog/da3cd137990a4259.png",
             "isNew": false
           },
           {
             "handle": "soft-ease-cotton-relax-trouser-blue",
-            "image": "/images/ad318d3d62da.webp",
+            "image": "/images/catalog/f0fd132f137ec689.webp",
             "isNew": false
           },
           {
             "handle": "shorts-comfy-crush-white",
-            "image": "/images/28ea51d23200.png",
+            "image": "/images/catalog/97b673bf398d7fc3.png",
             "isNew": false
           }
         ],
@@ -803,7 +803,7 @@
   "faq": [
     {
       "question": "Will I receive my order in discreet packaging?",
-      "answer": "Yes. All Sajiero orders are delivered in plain, discreet packaging with no mention of lingerie or the products inside. Your privacy is always protected."
+      "answer": "Yes. All Veloura orders are delivered in plain, discreet packaging with no mention of lingerie or the products inside. Your privacy is always protected."
     },
     {
       "question": "What if I don't like the product or have a quality issue?",

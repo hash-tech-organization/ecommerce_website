@@ -1,0 +1,114 @@
+/* Shared type scale measured from the reference storefront. */
+:root {
+  --type-page-title: clamp(2.25rem, 4.8vw, 3rem);
+  --type-document-title: clamp(3rem, 5.6vw, 3.5rem);
+  --type-section-title: clamp(1.75rem, calc(1.4rem + 1.5vw), 2.375rem);
+  --type-review-title: clamp(1.5rem, calc(1.2rem + 1.4vw), 2.125rem);
+  --type-card-title: 1.125rem;
+  --type-card-price: 1rem;
+}
+
+body { font-size: .875rem; }
+
+.quick-add-content > .add-to-cart-button { font-size: .875rem; font-weight: 400; line-height: 1.6; letter-spacing: normal; text-transform: none; }
+.product-card .product-name { font-size: var(--type-card-title); font-weight: 500; line-height: 1.35; letter-spacing: .005em; }
+.product-card .price { font-size: var(--type-card-price); line-height: 1.6; }
+.product-card .price > span { font-size: inherit; line-height: 1.2; letter-spacing: -.015em; }
+.product-card .price s { font-size: .875em; line-height: 1.6; }
+.product-card .card-option-group button { font-size: .75rem; font-weight: 400; line-height: 1.3; }
+.product-card .card-option-label { font-size: .6875rem; font-weight: 600; line-height: 1.6; }
+.product-card .sale-badge, .product-card .card-new-badge { font-size: .8125rem; font-weight: 700; line-height: 1.6; }
+.product-section .section-heading h2 { font-size: var(--type-section-title); line-height: 1.15; letter-spacing: -.015em; }
+.product-section .product-tabs button, .product-section .product-tabs button[aria-selected="true"] { font-size: .8125rem; font-weight: 500; line-height: 1.6; }
+.product-section .explore-card-label { font-size: clamp(.875rem, calc(.8rem + .4vw), 1.0625rem); font-weight: 500; line-height: 1.3; }
+.product-section .explore-card-button { font-size: .8125rem; font-weight: 600; line-height: 1.6; letter-spacing: .04em; }
+
+.home-section > h2 { font-size: 2rem; font-weight: 600; line-height: 1.1; }
+.promises-section > h2 { font-size: 2rem; line-height: 1.1; }
+.trusted-partners .trusted-partners-heading { font-size: .875rem; font-weight: 600; line-height: 1.3; letter-spacing: .18em; }
+.customer-voice-section > h2 { font-size: var(--type-review-title); line-height: 1.15; letter-spacing: -.015em; }
+.customer-voice-section .review-card { height: auto; min-height: 396px; }
+.customer-voice-section .review-quote { flex-basis: auto; min-height: 4.8rem; }
+.customer-voice-section .review-quote p { font-size: 1rem; font-weight: 400; line-height: 1.2; }
+.review-author { flex-basis: auto; min-height: 1.5em; font-size: 1rem; font-weight: 600; line-height: 1.5; }
+.customer-voice-section .review-product { flex-basis: auto; font-size: .875rem; line-height: 1.4; }
+.awards-section > h2, .faq-content > h2 { font-size: var(--type-section-title); font-weight: 600; line-height: 1.15; letter-spacing: -.015em; }
+.award-card-copy h3 { font-size: .9375rem; line-height: 1.35; }
+.award-card-copy p { font-size: .8125rem; line-height: 1.35; }
+.faq-list summary { font-size: 1.0625rem; font-weight: 500; line-height: 1.5; letter-spacing: .005em; }
+.faq-list details p { font-size: .9375rem; line-height: 1.7; }
+
+.site-footer .footer-newsletter-copy h2 { font-size: clamp(1.5rem, calc(1.2rem + 1.2vw), 2rem); line-height: 1.12; letter-spacing: .01em; }
+.site-footer .footer-newsletter-copy p { font-size: .9375rem; line-height: 1.55; }
+.site-footer .footer-newsletter-field input { font-size: .9375rem; line-height: 1.6; }
+.site-footer .footer-newsletter-field button { font-size: .75rem; line-height: 1.6; letter-spacing: .08em; }
+.site-footer .footer-newsletter-disclaimer { font-size: .75rem; line-height: 1.5; }
+.site-footer .footer-link-group h3 { font-size: 1rem; line-height: 1.3; }
+.site-footer .footer-link-group li, .site-footer .footer-link-group a { font-size: .875rem; line-height: 1.4; }
+.site-footer .footer-copyright, .site-footer .footer-copyright p, .site-footer .footer-copyright a { font-size: .8125rem; line-height: 1.6; }
+
+.product-page .pdp-info h1 { font-size: 1.5rem; line-height: 1; }
+.product-page .pdp-price > span { font-size: 1.5rem; line-height: 1; }
+.product-page .pdp-price > s { font-size: 1.2rem; line-height: 1; }
+.product-page .pdp-discount { font-size: .6875rem; line-height: 1.3; }
+.product-page .pdp-fit-notice { font-size: .75rem; line-height: 1.2; }
+.product-page .pdp-option-values > button { font-size: .875rem; font-weight: 400; line-height: 1.6; }
+.product-page .pdp-accordions summary { font-size: .75rem; font-weight: 500; line-height: 1.2; }
+.product-page .pdp-accordions details p { font-size: .875rem; line-height: 1.6; }
+.pdp-purchase-bar > .add-to-cart-button.pdp-purchase-button { font-size: .875rem; font-weight: 400; line-height: 1.6; }
+.related-products h2 { font-size: 1.5rem; font-weight: 600; line-height: 1; }
+.quick-add-product > div > a { font-size: 1.5rem; font-weight: 600; line-height: 1.2; }
+.quick-add-product .price { font-size: 1.5rem; line-height: 1; }
+.quick-add-product .price > span { font-weight: 600; line-height: 1; }
+.quick-add-product .price s { font-size: 1.2rem; line-height: 1; }
+.quick-add-content .field-label, .quick-add-content .size-options button, .quick-add-content > .text-link { font-size: .875rem; font-weight: 400; line-height: 1.6; letter-spacing: normal; text-transform: none; }
+
+.content-page > h1, .collection-heading h1 { font-size: var(--type-page-title); font-weight: 600; line-height: 1; letter-spacing: normal; }
+.page-container .breadcrumbs { font-size: .875rem; line-height: 1.6; }
+.content-page.policy-page > h1 { font-size: var(--type-document-title); }
+.content-page .prose { font-size: .875rem; line-height: 1.6; }
+.content-page .prose h1 { font-size: var(--type-document-title); font-weight: 600; line-height: 1; }
+.content-page .prose h2 { font-size: var(--type-page-title); font-weight: 600; line-height: 1; }
+.content-page .prose h3 { font-size: 2rem; font-weight: 600; line-height: 1.1; }
+.content-page .prose h4 { font-size: 1.5rem; font-weight: 600; line-height: 1; }
+.content-page .prose h5 { font-size: .875rem; font-weight: 600; }
+.content-page .prose h6 { font-size: .75rem; font-weight: 600; }
+.blog-card h2 { font-size: 1.5rem; font-weight: 600; line-height: 1; }
+.blog-card p, .blog-card .text-link, .collection-heading > p { font-size: .875rem; line-height: 1.6; }
+.contact-details h2 { font-size: 2rem; font-weight: 600; line-height: 1.1; }
+.contact-details p, .contact-details a { font-size: .875rem; line-height: 1.6; }
+.form-grid label, .account-page label { font-size: .875rem; line-height: 1.6; }
+.form-grid input, .form-grid textarea, .form-grid select { font-size: 1rem; font-weight: 400; line-height: 1.6; }
+.tool-card > p, .tool-card .tool-result p, .form-note, .form-success, .preview-notice { font-size: .875rem; line-height: 1.6; }
+.tool-card:has(input[name="under"]) .form-grid label { font-size: .9375rem; font-weight: 600; line-height: 1.6; }
+.tool-card:has(input[name="under"]) .button { font-size: 1.0625rem; font-weight: 700; line-height: normal; }
+.tool-card:has(input[name="date"]) .button { font-size: .875rem; font-weight: 400; }
+.cart-page > h1, .account-page > h1, .checkout-page > h1, .empty-cart h2, .empty-state h2 { font-size: 1.5rem; font-weight: 600; line-height: 1; }
+.empty-cart p, .empty-cart .small, .cart-note { font-size: .875rem; line-height: 1.6; }
+.empty-cart .button, .empty-state > .button, .cart-summary .button, .product-page .pdp-buy-now { font-size: .875rem; font-weight: 400; line-height: 1.6; }
+.modal-heading h2 { font-size: 1.5rem; font-weight: 600; line-height: 1; }
+.modal-right .modal-heading h2, .modal-right .empty-cart h2 { font-size: 1.125rem; line-height: 1.3; }
+.cart-item-info > a { font-size: 1rem; font-weight: 500; line-height: 1.35; }
+.cart-item-info, .cart-item-info .small, .cart-item-controls, .quantity, .remove-link { font-size: .875rem; line-height: 1.35; }
+.cart-summary, .cart-summary .small, .cart-summary .text-link { font-size: .875rem; line-height: 1.6; }
+.cart-summary > div, .order-line { font-size: .875rem; }
+.modal-right .cart-summary > div > strong:last-child { font-size: 1.25rem; line-height: 1.2; letter-spacing: -.02em; }
+.order-total { font-size: 1rem; }
+.account-page > p, .account-page > .text-link, .checkout-confirmation p { font-size: .875rem; line-height: 1.6; }
+.search-panel .search-field input { font-size: 1rem; line-height: 1.6; }
+.page-search input { font-size: .875rem; line-height: 1.6; }
+.trending p, .trending button, .search-result, .search-results > .text-link { font-size: .875rem; line-height: 1.6; }
+.trending p { font-weight: 500; line-height: 1; }
+.search-result { line-height: 1.3; }
+.search-result small { font-size: .8125rem; font-weight: 700; line-height: 1.6; }
+
+@media (max-width: 749px) {
+  :root { --type-card-title: 1.0625rem; --type-card-price: clamp(.8125rem, 3.6vw, .9375rem); }
+  .trusted-partners .trusted-partners-heading { font-size: .8125rem; }
+  .award-card-copy h3 { font-size: .875rem; }
+  .faq-list summary { font-size: 1rem; }
+  .quick-add-product > div > a { font-size: 1rem; font-weight: 500; line-height: 1.6; }
+  .quick-add-product .price { font-size: 1rem; }
+  .quick-add-product .price s { font-size: .875rem; }
+  .search-panel .search-field input, .page-search input { font-size: 1rem; }
+}

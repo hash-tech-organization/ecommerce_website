@@ -29,7 +29,7 @@
   min-width: 0;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid #efd9e3;
+  border: 1px solid var(--brand-line);
   border-radius: 16px;
   background: #fff;
 }
@@ -37,7 +37,7 @@
 .award-card-media {
   flex: 0 0 auto;
   overflow: hidden;
-  border-bottom: 1px solid #f2e2e9;
+  border-bottom: 1px solid var(--brand-line);
   background: #fff;
 }
 

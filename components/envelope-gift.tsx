@@ -8,14 +8,14 @@ import './envelope-gift.css';
 function Envelope({ opened }: { opened: boolean }) {
   return (
     <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
-      <path d="M2 23 32 3l30 20v34a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V23Z" fill="#F5D7A8" />
+      <path d="M2 23 32 3l30 20v34a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V23Z" fill="var(--brand-tint)" />
       <g className={`envelope-gift-letter ${opened ? 'envelope-gift-letter-revealed' : ''}`}>
-        <rect x="12" y="17" width="40" height="34" rx="3" fill="#FFF7E9" />
-        <path d="M32 39s-10-6-10-12a5.5 5.5 0 0 1 10-3 5.5 5.5 0 0 1 10 3c0 6-10 12-10 12Z" fill="#A04767" />
+        <rect x="12" y="17" width="40" height="34" rx="3" fill="#FFFFFF" />
+        <path d="M32 39s-10-6-10-12a5.5 5.5 0 0 1 10-3 5.5 5.5 0 0 1 10 3c0 6-10 12-10 12Z" fill="var(--brand)" />
       </g>
-      <path d="M2 23 32 45l30-22v34a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V23Z" fill="#FFE5BD" />
-      <path d="m2 23 30 22 30-22" stroke="#DE8C3B" strokeWidth="1.5" strokeLinejoin="round" />
-      {!opened && <circle cx="32" cy="21" r="4.5" fill="#DD8B3B" />}
+      <path d="M2 23 32 45l30-22v34a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V23Z" fill="var(--brand-line)" />
+      <path d="m2 23 30 22 30-22" stroke="var(--brand-strong)" strokeWidth="1.5" strokeLinejoin="round" />
+      {!opened && <circle cx="32" cy="21" r="4.5" fill="var(--brand)" />}
     </svg>
   );
 }

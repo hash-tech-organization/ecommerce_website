@@ -48,13 +48,13 @@
 
 .product-section .product-tabs button:hover {
   border-color: var(--brand);
-  color: var(--brand);
+  color: var(--brand-strong);
 }
 
 .product-section .product-tabs button[aria-selected="true"] {
   border-color: var(--brand);
   background: var(--brand);
-  color: #fff;
+  color: var(--brand-ink);
   font-weight: 600;
 }
 
@@ -97,7 +97,7 @@
   padding: 3px 8px;
   border-radius: 999px;
   background: var(--brand);
-  color: #fff;
+  color: var(--brand-ink);
   font-size: 10px;
   font-weight: 700;
   line-height: 1.6;
@@ -180,7 +180,7 @@
 }
 
 .card-option-group button[aria-pressed="true"] {
-  background: #fbf2f6;
+  background: var(--brand-soft);
 }
 
 .card-option-group button:disabled {
@@ -213,7 +213,7 @@
 }
 
 .product-card .price s {
-  color: #9f305b;
+  color: var(--brand-strong);
   font-size: 11px;
   font-weight: 400;
   text-decoration-thickness: 1px;
@@ -288,8 +288,8 @@
   padding: 6px 17px;
   border: 1px solid #d0d0d0;
   border-radius: 999px;
-  background: #fff;
-  color: #080808;
+  background: var(--brand);
+  color: var(--brand-ink);
   font-size: 11px;
   font-weight: 600;
   line-height: 1.3;
@@ -298,7 +298,7 @@
 .explore-card:hover .explore-card-button {
   border-color: var(--brand);
   background: var(--brand);
-  color: #fff;
+  color: var(--brand-ink);
 }
 
 @media (min-width: 750px) and (max-width: 989px) {

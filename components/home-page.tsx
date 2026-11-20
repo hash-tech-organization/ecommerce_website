@@ -10,7 +10,7 @@ import '@/components/home-stats.css';
 
 export default function HomePage() {
   return <main id="main-content">
-    <h1 className="sr-only">Sajiero — Made for your comfort</h1>
+    <h1 className="sr-only">Veloura — Made for your comfort</h1>
     <Hero />
     <ProductCarousel title="Most Loved Designs" tabs={homeTabs('bestselling')} />
     <section className="page-container category-tiles" aria-label="Shop by category">{home.categories.map((tile, i) => <Link href={tile.href} key={tile.href}><Image src={tile.image} alt={['Body Shapers', 'Bras', 'PJ Sets', 'Lingerie', 'Panties', 'Tops', 'Bottoms', 'Bra Panty Sets'][i]} width={900} height={1157} unoptimized loading="lazy" /></Link>)}</section>
@@ -18,7 +18,7 @@ export default function HomePage() {
     <TrustedPartners />
     <section className="page-container home-section"><h2>Featured Categories</h2><div className="featured-grid">{home.featured.map((tile, i) => <Link href={tile.href} key={tile.href}><Image src={tile.image} alt={['Seamless Bras', 'Fusion', 'Nightgowns', 'Cami Sets'][i]} width={1000} height={1250} unoptimized loading="lazy" /></Link>)}</div></section>
     <CustomerVoice />
-    <section className="home-stats-section" aria-label="Sajiero in numbers">
+    <section className="home-stats-section" aria-label="Veloura in numbers">
       <dl className="home-stats-grid">
         <div className="home-stat">
           <dt>Customers served</dt>
@@ -45,6 +45,6 @@ export default function HomePage() {
       </div>
     </section>
     <AwardsSection />
-    <section className="page-container home-section faq-section"><div className="faq-photo"><Image src={home.faqImage} alt="Everyday comfort with Sajiero" width={1200} height={1200} unoptimized loading="lazy" /></div><div className="faq-content"><h2>Frequently Asked Questions</h2><Faq /></div></section>
+    <section className="page-container home-section faq-section"><div className="faq-photo"><Image src={home.faqImage} alt="Everyday comfort with Veloura" width={1200} height={1200} unoptimized loading="lazy" /></div><div className="faq-content"><h2>Frequently Asked Questions</h2><Faq /></div></section>
   </main>;
 }

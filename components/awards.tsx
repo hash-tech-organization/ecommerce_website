@@ -11,7 +11,7 @@ const awards = [
 export function AwardsSection() {
   return (
     <section id="sajiero-awards" className="page-container home-section awards-section" aria-labelledby="sajiero-awards-heading">
-      <h2 id="sajiero-awards-heading">Sajiero Awards</h2>
+      <h2 id="sajiero-awards-heading">Veloura Awards</h2>
       <div className="awards-grid">
         {awards.map((award, index) => (
           <article className="award-card" key={award.title}>

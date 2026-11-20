@@ -1,0 +1,12 @@
+.period-tracker { max-width: 400px; margin: auto; padding: 15px; border-radius: 12px; background: #fff; box-shadow: 0 0 8px #0000001a; }
+.period-tracker label, .period-tracker input { display: block; width: 100%; margin: 8px 0; }
+.period-tracker input { padding: 8px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; }
+.period-tracker button { width: 100%; padding: 10px; border: 0; border-radius: 6px; background: var(--brand); color: var(--brand-ink); font-size: 14px; }
+.period-tracker button:hover { background: var(--brand-hover); }
+.period-result { margin-top: 15px; text-align: center; color: #333; font-weight: 600; }
+.period-faq { margin-top: 30px; }
+.period-faq details { margin-bottom: 15px; padding: 10px 0; border-bottom: 1px solid #ddd; }
+.period-faq summary { position: relative; padding-right: 20px; font-weight: 700; }
+.period-faq summary::after { content: '+'; position: absolute; right: 0; }
+.period-faq details[open] summary::after { content: '−'; }
+.period-faq p { margin-top: 5px; color: #555; }

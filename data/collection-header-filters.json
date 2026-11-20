@@ -1,0 +1,851 @@
+{
+  "pj-sets-new-arrivals": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "sajiero-bras-new-arrivals": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "sajiero-panties-new-arrivals": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "bra-sets-new-arrivals": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "body-shapers-new-arrival": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "lingerie-new-arrivals": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "bodystocking-lingerie-new-arrival": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "winter-collection-sajiero": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "new-arrivals": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "fleece-night-suits": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "winter-lounge-sets-and-tracksuits": [
+    "availability",
+    "size",
+    "price",
+    "fabric"
+  ],
+  "winter-trousers": [
+    "availability",
+    "size",
+    "price",
+    "fabric"
+  ],
+  "women-pajama-sets-nightwear-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "sajiero-clearance-items": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "linen-pajama-sets-women": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "crinkled-cotton-pjs": [
+    "availability",
+    "size",
+    "price",
+    "fabric"
+  ],
+  "soft-cotton-pjs": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "cotton-pajama-sets-for-women": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "silk-nightdress-for-women": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "sleeveless-pajama-sets-for-women": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "half-sleeves-pajama-sets-for-women": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "full-sleeves-pajama-sets-for-women": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "oversized-and-drop-shoulder-pjs": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "winter-pj": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "bra-bundles": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "bras-in-pakistan": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "cotton-bras": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "lace-bras": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "silicone-bra-for-women-pakistan": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion"
+  ],
+  "lycra": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "dry-fit-bra": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "bridal-bra": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "party-bra": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "daily-wear-bra": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "seamless-bras": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "underwired-bra": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "strapless-bra": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "pushup-bra": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "teen-bras-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "t-shirt-bra": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "front-open-bra": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "bralette-bra-for-women-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "sports-bra-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "maternity-bra": [],
+  "padded-bras": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "non-padded-bras": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "double-padded-bras": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "single-padded": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "panty-bundles": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "cotton-underwear-women-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "net-panties-ladies-underwear": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "spandex-panties": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "high-waisted-shaper-shorts": [
+    "availability",
+    "size",
+    "price",
+    "fabric"
+  ],
+  "womens-briefs-panties": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "thong-panties-for-women": [
+    "availability",
+    "size",
+    "price",
+    "fabric"
+  ],
+  "women-s-boyshorts-panties": [
+    "availability",
+    "size",
+    "color",
+    "price"
+  ],
+  "hipster-panty": [
+    "availability",
+    "size",
+    "color",
+    "price"
+  ],
+  "bikni-panty": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "padded-bra-sets": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "non-padded-bra-sets": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "garter-sets": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "full-body-shaper-women-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "half-body-shaper-women-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "waist-slimming-belt-women-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "nighty-dress": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "body-suits-for-women-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "inner-slips-for-women": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "cami-sets": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "full-bodystocking-lingerie": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "half-bodystocking-lingerie": [
+    "availability",
+    "size",
+    "price",
+    "fabric"
+  ],
+  "leg-stocking-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "t-shirts-for-women": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "camisole-in-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "tank-tops-for-women-girls-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "trouser-bundles": [
+    "availability",
+    "size",
+    "price",
+    "fabric"
+  ],
+  "printed-trousers": [
+    "availability",
+    "size",
+    "price",
+    "fabric"
+  ],
+  "women-s-shorts-bundles-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "summer-loungewear": [
+    "availability",
+    "size",
+    "price",
+    "fabric"
+  ],
+  "silicone-nipple-covers-pakistan": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "scrunchies": [],
+  "fusion-clothing": [
+    "availability",
+    "size",
+    "price",
+    "fabric"
+  ],
+  "womens-activewear-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "women-panties-underwear-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "bra-panty-sets": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "body-shapers-women-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "sexy-night-dresses-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "bodystocking-lingerie-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price"
+  ],
+  "sajiero-tops": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "trousers-and-shorts-for-women-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "trousers-for-women-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "sajiero-accessories-premium-quality": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "shorts-for-women-online-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "all": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "bikinis": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "s": [
+    "availability",
+    "size",
+    "price",
+    "fabric"
+  ],
+  "bundles": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "flash-deals": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "cotton-jersey-pjs": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "sj-gift-box": [
+    "availability",
+    "price"
+  ],
+  "sj-casual-bra": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "linen-pjs-2": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "linen-pjs-3": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "allproducts-bra-panties-lingerie": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "full-coverage-bras": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "lingerie-and-nightrobes-bestsellingwebsite": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "seamless-panties": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "nighty-gown-dress-for-women": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "short-nighty-pakistan": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "summer-pj-sets": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "summer-pj-sets-2": [
+    "availability",
+    "size",
+    "color",
+    "price",
+    "fabric"
+  ],
+  "womens-swimwear-bikini-pakistan": [],
+  "under-999": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "wireless-bras": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "undergarments-for-women-online-in-pakistan": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ],
+  "most-loved-designs": [
+    "availability",
+    "size",
+    "cup",
+    "color",
+    "price",
+    "occasion",
+    "fabric"
+  ]
+}

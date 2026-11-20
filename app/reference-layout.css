@@ -1,0 +1,112 @@
+/* Layout measurements from the reference; Veloura's theme remains in globals.css. */
+:root { --header-height: 80px; --cart-button-height: 36px; --cart-button-radius: 6px; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { border-radius: 8px; background: #999; }
+.page-container { width: 100%; max-width: 1520px; padding-inline: 40px; }
+.site-header.store-header { height: var(--header-height); }
+.navigation-drawer[open] { width: min(95vw, 500px); max-width: 500px; }
+.product-section { max-width: 1520px; padding: 48px 40px; }
+.product-section .section-heading { margin-bottom: 36px; }
+.product-section .product-tabs { flex-wrap: wrap; gap: 8px; margin-bottom: 36px; }
+.product-section .product-tabs button { min-height: 44px; padding: 8px 20px; letter-spacing: .04em; }
+.product-section .product-rail { gap: 20px; }
+.product-card .product-image-wrap { border-radius: 8px; }
+.product-card .product-card-info { gap: 6px; padding-top: 14px; }
+.product-card .card-option-group { min-height: 26px; }
+.product-card .card-option-group button { min-width: 28px; min-height: 26px; padding: 4px 7px; border-radius: 4px; }
+.product-card .sale-badge { top: 12px; left: 12px; padding: 3px 10px; }
+.product-card .card-new-badge { top: 12px; right: 12px; padding: 3px 10px; }
+.product-card .card-add { margin-top: 10px; }
+.arrivals-product-grid { column-gap: 16px; row-gap: 24px; }
+.page-container.new-arrivals-page { padding-inline: 40px; }
+.new-arrivals-page .arrivals-toolbar { min-height: 68px; margin-bottom: 0; padding-block: 12px; }
+.product-section .explore-card-content { padding: 24px 18px; border-radius: 8px; gap: 16px; }
+.product-section .explore-card-button { padding: 10px 22px; }
+
+.site-footer { padding: 72px 0 32px; }
+.footer-inner { max-width: 1440px; width: calc(100% - 80px); }
+.footer-newsletter { gap: 48px; }
+.site-footer .footer-newsletter-copy p { max-width: 52ch; margin-top: 14px; }
+.footer-newsletter-field { height: 58px; padding: 5px; }
+.site-footer .footer-newsletter-field input { height: 46px; padding-inline: 20px; }
+.footer-newsletter-field button { min-height: 46px; padding-inline: 26px; background: transparent; color: var(--brand-strong); }
+.footer-newsletter-field button:not(:disabled):hover { background: var(--brand-soft); }
+.footer-newsletter-disclaimer { margin-top: 12px; }
+.footer-main { gap: 24px; margin-top: 72px; padding: 48px 0 72px; grid-template-columns: minmax(0, 1.4fr) repeat(4, minmax(0, 1fr)); }
+.footer-socials { gap: 10px; margin-top: 6px; }
+.footer-socials a { width: 40px; height: 40px; }
+.footer-socials svg { width: 18px; height: 18px; }
+.footer-link-group ul { gap: 12px; margin-top: 20px; }
+.footer-link-group ul[hidden] { display: none; }
+.footer-group-toggle { display: flex; width: 100%; min-height: 52px; align-items: center; justify-content: space-between; padding: 14px 0; font: inherit; text-align: left; }
+.footer-copyright { padding-top: 24px; }
+.store-whatsapp { position: fixed; z-index: 35; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); display: grid; width: 64px; height: 64px; place-items: center; border: 5px solid var(--brand-tint); border-radius: 50%; background: var(--brand); color: var(--brand-ink); }
+
+.content-page { max-width: 752px; padding-top: 40px; padding-bottom: 80px; }
+.content-page > .breadcrumbs { display: none; }
+.content-page > h1 { margin: 0 0 32px; text-align: left; }
+.content-page .prose { max-width: none; margin: 0; }
+.content-page:has(.contact-grid) { max-width: 1120px; }
+.content-page.policy-page { max-width: 752px; }
+.cart-page { padding-top: 100px; padding-bottom: 80px; }
+.cart-page > h1 { margin-bottom: 32px; }
+.cart-page:has(.empty-cart) > h1 { display: none; }
+.cart-page .empty-cart { padding: 0 0 120px; }
+.cart-page .empty-cart > svg, .cart-page .empty-cart > .empty-cart-description { display: none; }
+.cart-page .empty-cart h2 { margin-bottom: 18px; }
+.cart-page .empty-cart .empty-cart-account { margin: 0 0 28px; }
+.cart-page .empty-cart .button { border-radius: 6px; }
+.cart-recommendations .section-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 28px; }
+.cart-recommendations h2 { font-size: 24px; font-weight: 600; line-height: 1.1; }
+.cart-recommendations .product-grid { column-gap: 16px; row-gap: 24px; }
+
+@media (min-width: 750px) and (max-width: 1199px) {
+  .product-section .product-rail { grid-template-columns: repeat(4, minmax(0, 1fr)); overflow-x: auto; grid-auto-flow: column; grid-auto-columns: calc((100% - 60px) / 4); }
+  .arrivals-product-grid, .cart-recommendations .product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .footer-main { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .footer-socials { grid-column: 1 / -1; }
+}
+@media (min-width: 750px) and (max-width: 1000px) {
+  .content-page { padding-top: 28px; }
+  .content-page > h1 { margin-bottom: 24px; }
+}
+
+@media (max-width: 749px) {
+  :root { --header-height: 60px; --cart-button-height: 44px; }
+  .page-container { padding-inline: 16px; }
+  .page-container.new-arrivals-page { padding-inline: 16px; }
+  .product-section { padding: 36px 16px; }
+  .product-section .section-heading { margin-bottom: 28px; }
+  .product-section .product-tabs { flex-wrap: nowrap; gap: 8px; margin-bottom: 36px; }
+  .product-section .product-tabs button { min-height: 44px; padding: 8px 20px; }
+  .product-section .product-rail { display: grid; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 60vw; gap: 12px; margin-right: -16px; padding-right: 16px; overflow-x: auto; scroll-snap-type: x mandatory; }
+  .product-rail > * { scroll-snap-align: start; }
+  .product-card .sale-badge { top: 10px; left: 10px; }
+  .product-card .card-new-badge { top: 10px; right: 10px; }
+  .product-card .card-option-group button { padding: 4px 7px; }
+  .new-arrivals-page .arrivals-toolbar { min-height: 52px; padding-block: 4px; margin-bottom: 0; }
+  .arrivals-toolbar > .arrivals-item-count, .arrivals-toolbar > .arrivals-sort, .arrivals-mobile-toggle > .arrivals-selected-count { display: none; }
+  .arrivals-product-grid { column-gap: 12px; row-gap: 12px; }
+  .arrivals-filter-drawer .arrivals-mobile-sort { display: grid; gap: 6px; }
+  .site-footer { padding: 64px 0 28px; }
+  .footer-inner { width: calc(100% - 32px); }
+  .footer-newsletter { gap: 24px; }
+  .footer-newsletter-field button { padding-inline: 18px; }
+  .footer-main { display: flex; flex-direction: column; gap: 0; margin-top: 56px; padding: 0 0 32px; border-top: 0; }
+  .footer-socials { margin-bottom: 28px; }
+  .footer-link-group { border-bottom: 1px solid var(--footer-line); }
+  .footer-link-group h3 { min-height: 52px; display: flex; align-items: center; }
+  .footer-link-group ul { margin: 0; padding-bottom: 18px; }
+  .footer-copyright { padding-top: 0; border: 0; }
+  .store-whatsapp { width: 64px; height: 64px; }
+  body:has(.product-page) .store-whatsapp { bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
+  .content-page { padding-top: 28px; padding-bottom: 64px; }
+  .content-page > h1 { margin-bottom: 24px; }
+  .cart-page { padding-top: 64px; padding-bottom: 48px; }
+  .cart-page .empty-cart { padding-bottom: 72px; }
+  .cart-recommendations .product-grid { display: grid; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: calc((100% - 8px) / 2); gap: 8px; overflow-x: auto; }
+}
+@media (max-width: 359px) {
+  .footer-newsletter-field button { padding-inline: 14px; letter-spacing: .04em; }
+  .site-footer .footer-newsletter-field input { padding-inline: 12px; }
+}

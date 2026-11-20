@@ -1,0 +1,51 @@
+
+.bra-calculator{--p:var(--brand);--p2:var(--brand-soft);--t:#2b2b2b;--m:#6b6b6b;font-family:Inter,Arial,sans-serif;color:var(--t);max-width:960px;margin:0 auto;padding:24px 16px;line-height:1.6}
+.bra-calculator h1{color:var(--p);font-size:clamp(30px,5vw,48px);line-height:1.15;margin:0 0 12px;text-align:center}
+.bra-calculator h2{color:var(--p);font-size:clamp(22px,3.2vw,30px);margin:48px 0 14px}
+.bra-calculator h3{font-size:19px;margin:0 0 8px}
+.bra-calculator p{margin:0 0 12px}
+.bra-calculator .lead{text-align:center;max-width:720px;margin:0 auto 28px;color:var(--m)}
+.bra-calculator .card{background:#fff;border:1px solid #eadde3;border-radius:14px;padding:24px;box-shadow:0 4px 18px rgba(142,56,98,.07)}
+.bra-calculator .calc{max-width:520px;margin:0 auto}
+.bra-calculator .tabs{display:flex;border:1px solid var(--p);border-radius:8px;overflow:hidden;margin-bottom:18px}
+.bra-calculator .tab{flex:1;padding:10px;text-align:center;cursor:pointer;font-weight:600;color:var(--p);background:#fff;border:0;font:inherit}
+.bra-calculator .tab.active{background:var(--p);color:#fff}
+.bra-calculator label{display:block;font-weight:600;margin:0 0 6px;font-size:15px}
+.bra-calculator input[type=number]{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid #d9c9d1;border-radius:8px;font-size:16px;margin-bottom:16px}
+.bra-calculator input:focus{outline:2px solid var(--p);border-color:var(--p)}
+.bra-calculator .btn{display:inline-block;width:100%;padding:14px;background:var(--p);color:#fff;border:0;border-radius:8px;font-size:17px;font-weight:700;cursor:pointer;text-align:center;text-decoration:none;box-sizing:border-box}
+.bra-calculator .btn:hover{opacity:.92}
+.bra-calculator .btn.ghost{background:#fff;color:var(--p);border:1px solid var(--p);margin-top:10px}
+.bra-calculator .err{color:#b3261e;font-size:14px;min-height:20px;margin:-6px 0 10px}
+.bra-calculator .result{margin-top:20px;padding:18px;border-radius:10px;background:var(--p2);text-align:center;display:none}
+.bra-calculator .result.show{display:block}
+.bra-calculator .size{font-size:44px;font-weight:800;color:var(--p);line-height:1.1;margin:4px 0 6px}
+.bra-calculator .sis{color:var(--m);margin-bottom:14px}
+.bra-calculator .stock{font-size:14px;color:var(--m);margin-bottom:10px}
+.bra-calculator .hint{font-size:13px;color:var(--m);text-align:center;margin-top:10px}
+.bra-calculator .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:18px}
+.bra-calculator .sjb-ill{display:block;width:100%;max-width:280px;height:auto;margin:6px auto 14px}
+.bra-calculator .num{display:inline-block;background:var(--p);color:#fff;border-radius:20px;padding:2px 12px;font-size:13px;font-weight:700;margin-bottom:8px}
+.bra-calculator ul{padding-left:20px;margin:0}
+.bra-calculator li{margin-bottom:6px}
+.bra-calculator table{width:100%;border-collapse:collapse;font-size:15px}
+.bra-calculator th,.bra-calculator td{border:1px solid #eadde3;padding:8px 10px;text-align:center}
+.bra-calculator th{background:var(--p);color:#fff}
+.bra-calculator tr:nth-child(even) td{background:#fbf6f8}
+.bra-calculator .scroll{overflow-x:auto}
+.bra-calculator .dd{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:18px}
+.bra-calculator .do h3{color:#2e7d32}.bra-calculator .dont h3{color:#b3261e}
+.bra-calculator details{border:1px solid #eadde3;border-radius:10px;padding:14px 16px;margin-bottom:10px;background:#fff}
+.bra-calculator summary{font-weight:700;cursor:pointer}
+.bra-calculator details p{margin:10px 0 0}
+.bra-calculator .cta{text-align:center;background:var(--p2);border-radius:14px;padding:28px 18px;margin-top:48px}
+.bra-calculator .cta .btn{width:auto;padding:13px 28px;margin:6px}
+.bra-calculator a{color:var(--p)}
+
+.bra-calculator .matching-products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px;text-align:left}
+.bra-calculator .matching-products a{display:block;color:var(--ink);font-size:14px;line-height:1.4}
+.bra-calculator .matching-products img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:8px;margin-bottom:8px}
+.bra-calculator .result strong{display:block}
+.bra-calculator .result .size{font-weight:700}
+.bra-calculator form{margin:0}
+.bra-calculator input{font-weight:400}

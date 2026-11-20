@@ -29,7 +29,7 @@ export function ProductCard({ product, index = 2 }: { product: ProductCardData; 
       </div>
       <div className="product-card-info">
         <Link className="product-name" title={product.title} href={`/products/${product.handle}`}>{product.title}</Link>
-        {product.options.map((option, optionIndex) => option.name === 'Title' ? null : (
+        {product.options.map((option, optionIndex) => !/^(size|cup(?: size)?)$/i.test(option.name) || (option.values.length === 1 && !/cup/i.test(option.name)) ? null : (
           <div className="card-option-group" key={option.name} role="group" aria-label={option.name}>
             {option.name.toLowerCase() !== 'size' && <span className="card-option-label">{option.name}</span>}
             {option.values.map(value => {

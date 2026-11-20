@@ -1,7 +1,7 @@
 .site-footer {
-  --footer-brand: #9b3b60;
-  --footer-muted: #c06588;
-  --footer-line: #eccbd9;
+  --footer-brand: var(--brand-strong);
+  --footer-muted: var(--brand-strong);
+  --footer-line: var(--brand-line);
   padding: 24px 16px 16px;
   background: #fff;
   color: var(--footer-brand);
@@ -50,7 +50,7 @@
   height: 46px;
   padding: 4px;
   overflow: hidden;
-  border: 1px solid #a52e5d;
+  border: 1px solid var(--brand);
   border-radius: 999px;
   background: #fff;
 }
@@ -91,8 +91,8 @@
   padding: 0 22px;
   border: 0;
   border-radius: 999px;
-  background: #fff;
-  color: var(--footer-brand);
+  background: var(--brand);
+  color: var(--brand-ink);
   font-size: 10px;
   font-weight: 700;
   line-height: 16px;
@@ -102,7 +102,7 @@
 }
 
 .footer-newsletter-field button:not(:disabled):hover {
-  background: #faf2f6;
+  background: var(--brand-hover);
 }
 
 .footer-newsletter-disclaimer {
@@ -134,14 +134,14 @@
   width: 32px;
   height: 32px;
   place-items: center;
-  border: 1px solid #c97798;
+  border: 1px solid var(--brand);
   border-radius: 50%;
   background: #fff;
   color: #080808;
 }
 
 .footer-socials a:hover {
-  background: #faf2f6;
+  background: var(--brand-soft);
 }
 
 .footer-link-group {
@@ -150,7 +150,7 @@
 
 .footer-link-group h3 {
   margin: 0;
-  color: #a3305d;
+  color: var(--brand-strong);
   font-size: 13px;
   font-weight: 700;
   line-height: 17px;

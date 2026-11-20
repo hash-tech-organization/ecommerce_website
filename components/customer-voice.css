@@ -62,7 +62,7 @@
   overflow: hidden;
   border: 0;
   border-radius: 0;
-  background: #f6f5f4;
+  background: var(--brand-soft);
 }
 
 .review-photo {
@@ -102,7 +102,7 @@
   justify-content: center;
   gap: 0;
   margin-top: 3px;
-  color: #a33162;
+  color: var(--brand);
 }
 
 .review-stars svg {
@@ -173,7 +173,7 @@ a.review-product:hover {
 }
 
 .review-arrow:hover {
-  color: #a33162;
+  color: var(--brand);
 }
 
 .reviews-playback {

@@ -8,10 +8,13 @@ import '@/components/awards.css';
 import '@/components/footer.css';
 import '@/components/customer-voice.css';
 import '@/components/trusted-partners.css';
+import './typography.css';
+import './reference-layout.css';
+import '@/components/quick-add.css';
 
 export const metadata: Metadata = {
-  title: { default: 'Sajiero | Lingerie, Nightwear & Everyday Comfort', template: '%s | Sajiero' },
-  description: 'Discover Sajiero’s PJ sets, bras, lingerie, body shapers and everyday essentials. Thoughtfully made for your comfort.',
+  title: { default: 'Veloura | Lingerie, Nightwear & Everyday Comfort', template: '%s | Veloura' },
+  description: 'Discover Veloura’s PJ sets, bras, lingerie, body shapers and everyday essentials. Thoughtfully made for your comfort.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

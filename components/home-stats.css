@@ -1,7 +1,7 @@
 .home-stats-section {
   width: 100%;
   padding-block: 48px;
-  background: #f5e8ed;
+  background: var(--brand-soft);
 }
 
 .home-stats-grid {
@@ -25,7 +25,7 @@
 }
 
 .home-stat + .home-stat {
-  border-left: 1px solid #d8cbd0;
+  border-left: 1px solid var(--brand-line);
 }
 
 .home-stat dt {
@@ -40,7 +40,7 @@
 .home-stat dd {
   order: -1;
   margin: 0;
-  color: #a32e5b;
+  color: var(--brand);
   font-size: 64px;
   font-weight: 400;
   line-height: 1.1;

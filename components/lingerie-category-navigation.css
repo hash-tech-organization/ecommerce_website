@@ -1,0 +1,19 @@
+.lingerie-category-nav { padding-block: 16px 0; }
+.lingerie-category-theme-filter { position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none; }
+.lingerie-category-list { display: flex; gap: 12px; margin: 0; padding: 0; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; list-style: none; }
+.lingerie-category-list::-webkit-scrollbar { display: none; }
+.lingerie-category-list > li { flex: 0 0 125px; scroll-snap-align: start; }
+.lingerie-category-link { position: relative; display: block; height: 155px; background: #fff; }
+.lingerie-category-link > img { width: 100%; height: 100%; object-fit: cover; }
+.lingerie-category-image { clip-path: inset(0 0 16%); }
+.lingerie-category-label { position: absolute; inset: 0; clip-path: inset(84% 0 0); filter: url('#lingerie-category-dusty-rose'); }
+.lingerie-category-link--new > .lingerie-category-image { visibility: hidden; }
+.lingerie-category-link--new > .lingerie-category-label { clip-path: none; }
+.all-lingerie-page .arrivals-toolbar { min-height: 64px; gap: 24px; padding-block: 10px; }
+@media (max-width: 749px) {
+  .lingerie-category-nav { margin-inline: -16px; padding-block: 12px 6px; }
+  .lingerie-category-list { padding-inline: 16px; scroll-padding-inline: 16px; }
+  .lingerie-category-list > li { flex-basis: 100px; }
+  .lingerie-category-link { height: 124px; }
+  .all-lingerie-page .arrivals-toolbar { min-height: 60px; gap: 20px; padding-block: 8px; }
+}
